@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+.yellowBalloon{      
+    width: 100px;
+    height: 132px;
+}
+
+.redBalloon{      
+    width: 100px;
+    height: 132px;
+}
+
+.logingButton{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto, sans-serif';
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.greenBalloon{      
+    width: 100px;
+    height: 132px;
+}
+
+ body{
+height: 100%;
+background:linear-gradient(to top left, yellow, black, red, black, purple, black,  blue, black , blue);
+color: blanchedalmond;
+background-attachment: fixed;
+position: relative;
+} 
+
+#wrapper{
+ text-align: center;
+  max-width: 400px;   
+  margin: auto;
+}
+#gameTitle{
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto, sans-serif';
+}
+
+#gameInstruction{
+    color: rgb(12, 24, 130);
+    font-family: serif;
+}
+
+#restart{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto, sans-serif';
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.Vidéos{
+    width: 100px;
+    height: 132px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+#scoreBoard{
+    font-size: 20px;
+    font-family: 'Roboto, sans-serif';
+    color: rgb(12, 24, 130);
+    margin-top: 20px;
+}
+
+.loginButton{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto, sans-serif';
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.loginButton:hover{
+    background-color: darkblue;
+}
+.loginButton:active{
+    background-color: navy;
+}
+.loginButton:focus{
+    outline: none;
+}
+
+.loginButton:disabled{
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+.loginButton:disabled:hover{
+    background-color: lightgray;
+}
+.loginButton:disabled:active{
+    background-color: lightgray;
+}
+
+#navbar {
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#navbar a {
+    color: #ff00007d;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
+}
+
+#navbar a:hover {
+    color:  blue;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
+}
